@@ -1,0 +1,18 @@
+.card_btn {
+  display: block;
+  margin-left: auto;
+  background-color: rgba(15, 15, 69, 0.4);
+  color: aliceblue;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1.1rem;
+  border-radius: 0.7em;
+  font-weight: 400;
+  transition: transform 100ms ease;
+  user-select: none;
+}
+
+.card_btn:hover {
+    transform: scale(1.05);
+    box-shadow: 3 3 13em rgb(13, 13, 86)
+}
